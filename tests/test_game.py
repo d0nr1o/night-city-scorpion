@@ -3,6 +3,7 @@ import os,sys,math,unittest,time,json
 from pathlib import Path
 os.environ['SDL_VIDEODRIVER']='dummy';os.environ['SDL_AUDIODRIVER']='dummy'
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+(Path(__file__).resolve().parents[1]/'screenshots').mkdir(exist_ok=True)
 import pygame as pg
 from pygame import Vector2 as V
 from game.model import World,Shot,Corpse,Field,segment_distance,ENEMY_SPECS,RANGED_START,SKILLS
