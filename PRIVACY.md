@@ -4,4 +4,4 @@ The upload uses an isolated source tree and fresh Git history. Commit author det
 
 Image comments, EXIF and ancillary metadata are removed. Audio container tags are cleared without re-encoding the audio streams. Movie frame archives use neutral ZIP timestamps. Required attribution and third-party license texts are retained.
 
-The account owner should enable email privacy, block command-line pushes that expose private email, hide profile activity, and remove personal public profile fields. A private profile does not hide a public repository's owner name; the project is intended for a private repository.
+The account owner should enable email privacy, block command-line pushes that expose private email, hide profile activity, and remove personal public profile fields. A private profile does not hide a public repository's owner name; the repository is public after sanitization, so its owner username and noreply commit identity remain visible.
