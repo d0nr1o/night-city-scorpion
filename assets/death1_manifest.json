@@ -1,0 +1,35 @@
+{
+  "source": "death1.mp4",
+  "sounds": {
+    "death_a": {
+      "file": "audio/death_a.ogg",
+      "seconds": 4.82,
+      "source_start": 0,
+      "source_end": 4.82
+    },
+    "death_b": {
+      "file": "audio/death_b.ogg",
+      "seconds": 2.68,
+      "source_start": 9.42,
+      "source_end": 12.1
+    },
+    "death_c": {
+      "file": "audio/death_c.ogg",
+      "seconds": 4.4,
+      "source_start": 15.05,
+      "source_end": 19.45
+    },
+    "death_mourner": {
+      "file": "audio/death_mourner.ogg",
+      "seconds": 2.865208,
+      "source_start": 20.7,
+      "source_end": 23.565208
+    }
+  },
+  "enemy": {
+    "file": "mourner.png",
+    "frame_seconds": 22,
+    "method": "built-in imagegen transparent cutout of supplied video frame",
+    "prompt": "Edit target: the attached frame from the user's local animation video. Create a transparent-background cutout sprite of ONLY the exact blond, mustached male character wearing the green and white jacket with orange trim. Remove all gray smoke, flames and other background. Preserve his recognizable face, expression, hair, clothing colors, anime line art, and the original head-and-shoulders composition. Keep the existing bust crop, do not invent a body below it, do not add props or text, do not redesign or recolor the character. Center the clean head-and-shoulders bust on a genuinely transparent canvas with small transparent padding. Output usable RGBA game character sprite. Intended use: melee enemy sprite in the user's Python game."
+  }
+}

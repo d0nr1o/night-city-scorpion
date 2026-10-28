@@ -1,0 +1,32 @@
+{
+  "source": "art_source\\user_supplied\\Cyberpunk.Edgerunners.S02E03.021.1080p.NF.WEB-DL.DUAL.DDP5.1.H.264-VARYG.mp4",
+  "source_sha256": "e7586cc24cccf04a66deac7c1cdebbd070191e5e9c37bb91e9b0b0f91e397cff",
+  "segments": {
+    "tool-loss": {
+      "start": 0,
+      "end": 12.887875,
+      "kind": "movie"
+    },
+    "scorpion-get": {
+      "start": 15.348667,
+      "end": 18.351667,
+      "kind": "movie"
+    },
+    "idle1": {
+      "start": 20.38,
+      "end": 23.72,
+      "kind": "voice"
+    },
+    "idle2": {
+      "start": 25.25,
+      "end": 26.49,
+      "kind": "voice"
+    },
+    "idle3": {
+      "start": 27.14,
+      "end": 29.12,
+      "kind": "voice"
+    }
+  },
+  "cuts": "Black intervals excluded; audio boundaries inspected with silence detection."
+}

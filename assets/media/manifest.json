@@ -1,0 +1,106 @@
+{
+  "sounds": {
+    "killer": {
+      "source": "killer.mp3",
+      "file": "audio/killer.ogg",
+      "seconds": 7.1
+    },
+    "recover": {
+      "source": "recover.mp3",
+      "file": "audio/recover.ogg",
+      "seconds": 1.44
+    },
+    "weapon": {
+      "source": "weapon.mp3",
+      "file": "audio/weapon.ogg",
+      "seconds": 0.768
+    },
+    "idle1": {
+      "source": "Cyberpunk.Edgerunners.S02E03.021.1080p.NF.WEB-DL.DUAL.DDP5.1.H.264-VARYG.mp4",
+      "source_start": 20.38,
+      "source_end": 23.72,
+      "file": "audio/idle1.ogg",
+      "seconds": 3.34
+    },
+    "idle2": {
+      "source": "Cyberpunk.Edgerunners.S02E03.021.1080p.NF.WEB-DL.DUAL.DDP5.1.H.264-VARYG.mp4",
+      "source_start": 25.25,
+      "source_end": 26.49,
+      "file": "audio/idle2.ogg",
+      "seconds": 1.24
+    },
+    "idle3": {
+      "source": "Cyberpunk.Edgerunners.S02E03.021.1080p.NF.WEB-DL.DUAL.DDP5.1.H.264-VARYG.mp4",
+      "source_start": 27.14,
+      "source_end": 29.12,
+      "file": "audio/idle3.ogg",
+      "seconds": 1.98
+    }
+  },
+  "clips": {
+    "recover_default": {
+      "source": "recover_default.mp4",
+      "frames_file": "recover_default.frames",
+      "audio_file": "recover_default.ogg",
+      "frames": 134,
+      "fps": 23.976023976023978,
+      "seconds": 5.588917,
+      "audio_seconds": 5.6,
+      "width": 1280,
+      "height": 720
+    },
+    "weapon-caught": {
+      "source": "weapon-caught.mp4",
+      "frames_file": "weapon-caught.frames",
+      "audio_file": "weapon-caught.ogg",
+      "frames": 25,
+      "fps": 23.976023976023978,
+      "seconds": 1.042708,
+      "audio_seconds": 1.042708,
+      "width": 1280,
+      "height": 720
+    },
+    "weapon-recover": {
+      "source": "weapon-recover.mp4",
+      "frames_file": "weapon-recover.frames",
+      "audio_file": "weapon-recover.ogg",
+      "frames": 46,
+      "fps": 23.976023976023978,
+      "seconds": 1.918583,
+      "audio_seconds": 1.918583,
+      "width": 1280,
+      "height": 720
+    },
+    "tool-loss": {
+      "source": "Cyberpunk.Edgerunners.S02E03.021.1080p.NF.WEB-DL.DUAL.DDP5.1.H.264-VARYG.mp4",
+      "source_start": 0,
+      "source_end": 12.887875,
+      "frames_file": "tool-loss.frames",
+      "audio_file": "tool-loss.ogg",
+      "frames": 309,
+      "fps": 24,
+      "seconds": 12.887875,
+      "audio_seconds": 12.887875,
+      "width": 1280,
+      "height": 720
+    },
+    "scorpion-get": {
+      "source": "Cyberpunk.Edgerunners.S02E03.021.1080p.NF.WEB-DL.DUAL.DDP5.1.H.264-VARYG.mp4",
+      "source_start": 15.348667,
+      "source_end": 18.351667,
+      "frames_file": "scorpion-get.frames",
+      "audio_file": "scorpion-get.ogg",
+      "frames": 72,
+      "fps": 24,
+      "seconds": 3.0029999999999983,
+      "audio_seconds": 3.003,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "references": [
+    "https://danqzq.itch.io/persona-5-animation-tool",
+    "https://www.koeitecmo.co.jp/news/docs/210428-news.pdf"
+  ],
+  "style": "Original red/black jagged cut-in framing referencing Persona 5; downloaded CC0 electronic stings from sfx_manifest.json; supplied movies and their audio are preserved."
+}

@@ -1,0 +1,568 @@
+{
+  "license": "CC0-1.0",
+  "effects": {
+    "shoot": {
+      "file": "audio/sfx_shoot.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/laser4.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.3,
+      "source_sha256": "13f34561740aadbd3438b971dfe248cf56ea09d333eb7a0278561e09e27c3557"
+    },
+    "enemyshoot": {
+      "file": "audio/sfx_enemyshoot.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/laser2.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.3,
+      "source_sha256": "50470d64f9397855e5d9a334484da9c5232b3e0524c52f088b8a73822bd89f45"
+    },
+    "shotgun": {
+      "file": "audio/sfx_shotgun.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/laser7.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.5,
+      "source_sha256": "ec67a33a99dce15b93d74ee4d32c903150dcd04b822853f417eafd526ca041fd"
+    },
+    "railgun": {
+      "file": "audio/sfx_railgun.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/laser9.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.65,
+      "source_sha256": "ae77fe3e3f3488e64b83f0526640af512e5ef452d88e79b4b97404803a047e9f"
+    },
+    "rocket": {
+      "file": "audio/sfx_rocket.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/phaserDown3.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.521,
+      "source_sha256": "19fd2f5bb8448e022381f1a72c36117d4adcb521ebeb697e888bfaf7945cfa56"
+    },
+    "disc": {
+      "file": "audio/sfx_disc.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/phaserUp3.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.400229,
+      "source_sha256": "d6edcbde2c7190e275ef3eba08a8886129153a361cd0e16dc0fb58206deb5e53"
+    },
+    "slash": {
+      "file": "audio/sfx_slash.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/impact-sounds",
+      "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "original": "Audio/impactMetal_light_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.251833,
+      "source_sha256": "fba69c467ddd85da7b1d82e259f936b876d9ba6a3d6f1b24bdd10468e46bfe08"
+    },
+    "impact": {
+      "file": "audio/sfx_impact.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/impact-sounds",
+      "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "original": "Audio/impactMetal_light_000.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.240229,
+      "source_sha256": "33b5e6e37c6e9d54e07bf5a89b12c76e879f40c1ea83cdd82714df1d6f9fec6d"
+    },
+    "hurt": {
+      "file": "audio/sfx_hurt.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/impact-sounds",
+      "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "original": "Audio/impactPunch_medium_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.400229,
+      "source_sha256": "e71d23abcc3f10d9d6bc9615b2a431fff70b12333a5fcdd9964457564ace4349"
+    },
+    "upgrade": {
+      "file": "audio/sfx_upgrade.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/powerUp2.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.470208,
+      "source_sha256": "83786b43d828a399e14ac20604b63a60ca05385977f5477d00304c2adc696204"
+    },
+    "select": {
+      "file": "audio/sfx_select.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/twoTone1.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.250896,
+      "source_sha256": "8732f14d6398407a8f1df77b986c2099cfd88f6583e1272cb60497cb2fe8da1d"
+    },
+    "cutin_in": {
+      "file": "audio/sfx_cutin_in.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/phaseJump1.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.340229,
+      "source_sha256": "c60069ed7108678dd6a1306404d168a93cc2575cda37b06add9dd6c4d46352a3"
+    },
+    "cutin_out": {
+      "file": "audio/sfx_cutin_out.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/phaserDown1.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.300229,
+      "source_sha256": "d2d046cd0247045f8819905fc9719a7237ccbd590b3128ce58a61a81f50d208b"
+    },
+    "zap": {
+      "file": "audio/sfx_zap.ogg",
+      "author": "faxcorp",
+      "page": "https://opengameart.org/content/electricity-game-sound-pack",
+      "download": "https://opengameart.org/sites/default/files/crackleelectricityloop.wav",
+      "original": "crackleelectricityloop.wav",
+      "license": "CC0-1.0",
+      "seconds": 0.24,
+      "source_sha256": "c872ff9719f9bdf503e5d87fe9b1b128255fe2f9506e3a380ff022b83e0b7be8"
+    },
+    "hack": {
+      "file": "audio/sfx_hack.ogg",
+      "author": "faxcorp",
+      "page": "https://opengameart.org/content/electricity-game-sound-pack",
+      "download": "https://opengameart.org/sites/default/files/hit.wav",
+      "original": "hit.wav",
+      "license": "CC0-1.0",
+      "seconds": 0.45,
+      "source_sha256": "03d05a1249c45d795382f840c35563c0f151423afd47c04a4af7a81bad2f32fc"
+    },
+    "dash": {
+      "file": "audio/sfx_dash.ogg",
+      "author": "faxcorp",
+      "page": "https://opengameart.org/content/electricity-game-sound-pack",
+      "download": "https://opengameart.org/sites/default/files/teleport_1.wav",
+      "original": "teleport_1.wav",
+      "license": "CC0-1.0",
+      "seconds": 0.5,
+      "source_sha256": "93d6e931e26b93827a8980a21f203d8ca9d03ccc6dc19129e3241b900c11de49"
+    },
+    "absorb": {
+      "file": "audio/sfx_absorb.ogg",
+      "author": "Kenney + qubodup",
+      "page": "https://opengameart.org/content/7-mechanical-clicks-and-buzzes",
+      "download": "https://opengameart.org/sites/default/files/mechanical.7z",
+      "original": "Layered metal impact + latch + mechanical clicks",
+      "license": "CC0-1.0",
+      "seconds": 0.444542,
+      "source_sha256": "72ffe996469354d8902fa02dd003f77c2f963a6f145d49434e39e275938747d6",
+      "components": [
+        {
+          "author": "Kenney",
+          "page": "https://kenney.nl/assets/impact-sounds",
+          "original": "Audio/impactMetal_heavy_000.ogg",
+          "source_sha256": "e07045693e4a2b3d165c424e3dab4c781d9ff8880a386880ac89a51315d7f831"
+        },
+        {
+          "author": "Kenney",
+          "page": "https://kenney.nl/assets/rpg-audio",
+          "original": "Audio/metalLatch.ogg",
+          "source_sha256": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708"
+        },
+        {
+          "author": "qubodup",
+          "page": "https://opengameart.org/content/7-mechanical-clicks-and-buzzes",
+          "original": "mechanical\\mechanical_clicks-01.flac",
+          "source_sha256": "4a823673791fca5a8bc5437bac95323594c0c5a51da37f90257359f39022137f"
+        }
+      ],
+      "mix": "[0:a]aresample=48000,asetrate=43200,aresample=48000,volume=0.85,adelay=45|45[m];[1:a]volume=0.6,adelay=180|180[l];[2:a]atrim=duration=0.32,volume=0.45[c];[m][l][c]amix=inputs=3:duration=longest:normalize=0,atrim=duration=0.8,loudnorm=I=-22:TP=-7:LRA=6,afade=t=in:d=0.004,afade=t=out:st=0.72:d=0.08[out]"
+    },
+    "emp": {
+      "file": "audio/sfx_emp.ogg",
+      "author": "faxcorp",
+      "page": "https://opengameart.org/content/electricity-game-sound-pack",
+      "download": "https://opengameart.org/sites/default/files/groundhit.wav",
+      "original": "groundhit.wav",
+      "license": "CC0-1.0",
+      "seconds": 0.284917,
+      "source_sha256": "34b04cf82aa1323dbb241567b0b4a1b64669984670f42f155b552860a9554174"
+    },
+    "mine": {
+      "file": "audio/sfx_mine.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/impact-sounds",
+      "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "original": "Audio/impactMetal_heavy_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.359271,
+      "source_sha256": "83554049f81f4db9209379e103c30bfa63f65c42189a03f300b045c2c82e23ae"
+    },
+    "fire": {
+      "file": "audio/sfx_fire.ogg",
+      "author": "faxcorp",
+      "page": "https://opengameart.org/content/electricity-game-sound-pack",
+      "download": "https://opengameart.org/sites/default/files/crackleelectricityloop.wav",
+      "original": "crackleelectricityloop.wav",
+      "license": "CC0-1.0",
+      "seconds": 0.45,
+      "source_sha256": "c872ff9719f9bdf503e5d87fe9b1b128255fe2f9506e3a380ff022b83e0b7be8"
+    },
+    "zap2": {
+      "file": "audio/sfx_zap2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/forceField_002.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.24,
+      "source_sha256": "051b0eafc479695af4ca3607d41fd4be41bae7c21f4f9508d004722b09f1bd63"
+    },
+    "zap3": {
+      "file": "audio/sfx_zap3.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/digital-audio",
+      "download": "https://kenney.nl/media/pages/assets/digital-audio/216eac4753-1677590265/kenney_digital-audio.zip",
+      "original": "Audio/zapTwoTone.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.24,
+      "source_sha256": "7d5871b7b01f631bee006772cc4fb6ab6a1eb5c78d5be42edc722b57157c00f5"
+    },
+    "shoot2": {
+      "file": "audio/sfx_shoot2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/laserSmall_000.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.239208,
+      "source_sha256": "72b589eadd41781257ac859e4f4d030222e623390e4a1a83f6d05329a6e026f1"
+    },
+    "shoot3": {
+      "file": "audio/sfx_shoot3.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/laserSmall_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.247354,
+      "source_sha256": "ab87913aba9790a0c5fa173d086267ba521ad522fcad2252271db49988313cf5"
+    },
+    "enemyshoot2": {
+      "file": "audio/sfx_enemyshoot2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/laserRetro_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.235521,
+      "source_sha256": "a0a99efaa755594982d5dfebf3d9cecaed5249bdf1f0de29cf26ca9ea24c191a"
+    },
+    "railgun2": {
+      "file": "audio/sfx_railgun2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/laserLarge_000.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.65,
+      "source_sha256": "a56d95794cd732d6c2d66ce488c14cf557fe526c282897c9a77675c2bd9b77e6"
+    },
+    "railgun3": {
+      "file": "audio/sfx_railgun3.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/laserLarge_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.65,
+      "source_sha256": "e678aca631495b7dfef4ac625f0349875ccac81a60f538d530e072241af3e4bd"
+    },
+    "impact2": {
+      "file": "audio/sfx_impact2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/impactMetal_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.3,
+      "source_sha256": "4a2b76f20052819c6ace57cc5ba55ec58deffcf74e3ed30694d619c582cc8e8e"
+    },
+    "impact3": {
+      "file": "audio/sfx_impact3.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/impact-sounds",
+      "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "original": "Audio/impactPunch_medium_002.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.3,
+      "source_sha256": "6492f9ccbc8d24dcef607bb1b48790b7870961474561f7fe5601e1c73a3018ef"
+    },
+    "hurt2": {
+      "file": "audio/sfx_hurt2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/impact-sounds",
+      "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "original": "Audio/impactPunch_heavy_000.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.4,
+      "source_sha256": "b33a8f14068aec24ec69ba85e5e87fdc41228975f6a1a3e44a6e7d6fc3d9f8d8"
+    },
+    "hurt3": {
+      "file": "audio/sfx_hurt3.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/impact-sounds",
+      "download": "https://kenney.nl/media/pages/assets/impact-sounds/87b4ddecda-1677589768/kenney_impact-sounds.zip",
+      "original": "Audio/impactPunch_medium_002.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.4,
+      "source_sha256": "6492f9ccbc8d24dcef607bb1b48790b7870961474561f7fe5601e1c73a3018ef"
+    },
+    "slash2": {
+      "file": "audio/sfx_slash2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/rpg-audio",
+      "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+      "original": "Audio/knifeSlice.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.3,
+      "source_sha256": "4cd96dc630bed9840c15f1dd2306da2cc56a4da26a5d3f1a03c5a7265ac5e54f"
+    },
+    "slash3": {
+      "file": "audio/sfx_slash3.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/rpg-audio",
+      "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+      "original": "Audio/knifeSlice2.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.3,
+      "source_sha256": "6c2064d0ef988d1ec3d56868e823ea8823a5cac00f2742560052633529407def"
+    },
+    "explosion": {
+      "file": "audio/sfx_explosion.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/explosionCrunch_000.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.777458,
+      "source_sha256": "4b597d658d0ae101f0a030fbeea5fc3a4292ab85f017470a8254a8e7959cbd69"
+    },
+    "explosion2": {
+      "file": "audio/sfx_explosion2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/explosionCrunch_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.9,
+      "source_sha256": "fdd04d6f0032d4d57c134ad37f3587d2d00e58c9572715275bd8cf4f43593576"
+    },
+    "select2": {
+      "file": "audio/sfx_select2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/interface-sounds",
+      "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+      "original": "Audio/select_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.043292,
+      "source_sha256": "aec0c31ea934a35936ae0d2ab8fac8123c93aa5647f935853a58dbaf90278b7a"
+    },
+    "select3": {
+      "file": "audio/sfx_select3.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/interface-sounds",
+      "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+      "original": "Audio/select_002.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.043292,
+      "source_sha256": "4cc6ac5341b9b2c86fef80c347de028e9ab9f2e037586ac7d9fa59a403a1c012"
+    },
+    "tool_open": {
+      "file": "audio/sfx_tool_open.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/rpg-audio",
+      "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+      "original": "Audio/metalLatch.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.261333,
+      "source_sha256": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708"
+    },
+    "tool_null": {
+      "file": "audio/sfx_tool_null.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/forceField_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.65,
+      "source_sha256": "5574e69dd04e5f59322c5ddffde5978f077b09170ae5e29cec0bd9901828cd90"
+    },
+    "signal_loss": {
+      "file": "audio/sfx_signal_loss.ogg",
+      "author": "faxcorp",
+      "page": "https://opengameart.org/content/electricity-game-sound-pack",
+      "download": "https://opengameart.org/sites/default/files/powerdown.wav",
+      "original": "powerdown.wav",
+      "license": "CC0-1.0",
+      "seconds": 1.15,
+      "source_sha256": "3db6a8a58a9b71460dda4208c14b347a02086c1567d0e870d1e5370f75611bb5"
+    },
+    "power_on": {
+      "file": "audio/sfx_power_on.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/forceField_000.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.6,
+      "source_sha256": "c2916f2a062c8ddd1aca2826d134fe90847037db31342726ffb0f9097afe339c"
+    },
+    "shield_hit": {
+      "file": "audio/sfx_shield_hit.ogg",
+      "author": "faxcorp",
+      "page": "https://opengameart.org/content/electricity-game-sound-pack",
+      "download": "https://opengameart.org/sites/default/files/shieldhit.wav",
+      "original": "shieldhit.wav",
+      "license": "CC0-1.0",
+      "seconds": 0.35,
+      "source_sha256": "6213e372a3aaafa0a4b33cc04e2f62ca97d20f3d91cf3506464d8cc9dc899625"
+    },
+    "enemy_down": {
+      "file": "audio/sfx_enemy_down.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/rpg-audio",
+      "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+      "original": "Audio/dropLeather.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.3,
+      "source_sha256": "097e1d3b74949b0145fda0519d40b7e0773ab82ec4858727f95be830927e1a45"
+    },
+    "footstep": {
+      "file": "audio/sfx_footstep.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/rpg-audio",
+      "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+      "original": "Audio/footstep00.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.18,
+      "source_sha256": "6fe61ef1fc3bcf0e253bf2eb64759db6cb69e2fe452f4d88cc597ecf78a3d601"
+    },
+    "footstep2": {
+      "file": "audio/sfx_footstep2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/rpg-audio",
+      "download": "https://kenney.nl/media/pages/assets/rpg-audio/8e99002d76-1677590336/kenney_rpg-audio.zip",
+      "original": "Audio/footstep01.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.18,
+      "source_sha256": "313472dba31fd0c855376069fa368bb5a198c27251cc8398ef464578b7047a4c"
+    },
+    "boss_alert": {
+      "file": "audio/sfx_boss_alert.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/interface-sounds",
+      "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+      "original": "Audio/bong_001.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.122833,
+      "source_sha256": "d21d0f0b782445db579d11e2506b24cd1ac9d664ee33aeaf807761aa7b6fd710"
+    },
+    "upgrade2": {
+      "file": "audio/sfx_upgrade2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/interface-sounds",
+      "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+      "original": "Audio/confirmation_002.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.539,
+      "source_sha256": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c"
+    },
+    "mine2": {
+      "file": "audio/sfx_mine2.ogg",
+      "author": "Kenney",
+      "page": "https://kenney.nl/assets/sci-fi-sounds",
+      "download": "https://kenney.nl/media/pages/assets/sci-fi-sounds/6b296f9ecf-1677589334/kenney_sci-fi-sounds.zip",
+      "original": "Audio/lowFrequency_explosion_000.ogg",
+      "license": "CC0-1.0",
+      "seconds": 0.8,
+      "source_sha256": "3cb48d86dab63140cfb9aaeea4d4a6846abaca5831d157d8adbec0490da26343"
+    },
+    "absorb2": {
+      "file": "audio/sfx_absorb2.ogg",
+      "author": "Kenney + qubodup",
+      "page": "https://opengameart.org/content/7-mechanical-clicks-and-buzzes",
+      "download": "https://opengameart.org/sites/default/files/mechanical.7z",
+      "original": "Layered metal impact + latch + mechanical clicks",
+      "license": "CC0-1.0",
+      "seconds": 0.444542,
+      "source_sha256": "8bf4a20b5afb71576e4f2992aa87a3871ce7db9b07bdfb957b3e6ba7f79f1604",
+      "components": [
+        {
+          "author": "Kenney",
+          "page": "https://kenney.nl/assets/impact-sounds",
+          "original": "Audio/impactMetal_heavy_001.ogg",
+          "source_sha256": "83554049f81f4db9209379e103c30bfa63f65c42189a03f300b045c2c82e23ae"
+        },
+        {
+          "author": "Kenney",
+          "page": "https://kenney.nl/assets/rpg-audio",
+          "original": "Audio/metalLatch.ogg",
+          "source_sha256": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708"
+        },
+        {
+          "author": "qubodup",
+          "page": "https://opengameart.org/content/7-mechanical-clicks-and-buzzes",
+          "original": "mechanical\\mechanical_clicks-02.flac",
+          "source_sha256": "89cf42cb3766fe2893eaec806c8a205c0b337e7297ff526d11bbc1d2fcbd7e91"
+        }
+      ],
+      "mix": "[0:a]aresample=48000,asetrate=43200,aresample=48000,volume=0.85,adelay=45|45[m];[1:a]volume=0.6,adelay=180|180[l];[2:a]atrim=duration=0.32,volume=0.45[c];[m][l][c]amix=inputs=3:duration=longest:normalize=0,atrim=duration=0.8,loudnorm=I=-22:TP=-7:LRA=6,afade=t=in:d=0.004,afade=t=out:st=0.72:d=0.08[out]"
+    },
+    "absorb3": {
+      "file": "audio/sfx_absorb3.ogg",
+      "author": "Kenney + qubodup",
+      "page": "https://opengameart.org/content/7-mechanical-clicks-and-buzzes",
+      "download": "https://opengameart.org/sites/default/files/mechanical.7z",
+      "original": "Layered metal impact + latch + mechanical clicks",
+      "license": "CC0-1.0",
+      "seconds": 0.444542,
+      "source_sha256": "c48d0780730b68b1306092ac8894111cf5b8bd3fa72986b586f57018f49d7046",
+      "components": [
+        {
+          "author": "Kenney",
+          "page": "https://kenney.nl/assets/impact-sounds",
+          "original": "Audio/impactMetal_heavy_002.ogg",
+          "source_sha256": "b914c8f1eb7c0f34bb165d7c77f4be0351f6be0660c13c53e65424e262e2c093"
+        },
+        {
+          "author": "Kenney",
+          "page": "https://kenney.nl/assets/rpg-audio",
+          "original": "Audio/metalLatch.ogg",
+          "source_sha256": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708"
+        },
+        {
+          "author": "qubodup",
+          "page": "https://opengameart.org/content/7-mechanical-clicks-and-buzzes",
+          "original": "mechanical\\mechanical_clicks-03.flac",
+          "source_sha256": "d6471866061294b3873de2776096f3231b476807606fafb52850efdb560dce1f"
+        }
+      ],
+      "mix": "[0:a]aresample=48000,asetrate=43200,aresample=48000,volume=0.85,adelay=45|45[m];[1:a]volume=0.6,adelay=180|180[l];[2:a]atrim=duration=0.32,volume=0.45[c];[m][l][c]amix=inputs=3:duration=longest:normalize=0,atrim=duration=0.8,loudnorm=I=-22:TP=-7:LRA=6,afade=t=in:d=0.004,afade=t=out:st=0.72:d=0.08[out]"
+    }
+  }
+}

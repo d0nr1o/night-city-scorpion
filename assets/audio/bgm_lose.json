@@ -1,0 +1,10 @@
+{
+  "source": "bgm_lose.flac",
+  "seconds": 229.92515625,
+  "crossfade_seconds": 3,
+  "sample_rate": 32000,
+  "peak": 0.7041059732437134,
+  "loop_seam_jump": 0.004982452839612961,
+  "adjacent_difference_p99": 0.1030905619263649,
+  "method": "loudnorm -18 LUFS; equal-power tail/head overlap; Vorbis loop"
+}

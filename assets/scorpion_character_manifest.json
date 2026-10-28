@@ -1,0 +1,6 @@
+{
+  "source": "art_source/user_supplied/scorpion_character_reference.png",
+  "output": "assets/scorpion_character.png",
+  "method": "Built-in image_gen background extraction",
+  "prompt": "Use case: background-extraction. Asset type: transparent PNG character sprite for an existing game. Edit target: the attached blue-haired anime character screenshot. Remove only the entire background cleanly, preserving the exact visible character, very tall spiky blue hair, green eyes, red facial marks, blue jacket, pose and original anime linework and colors. Keep all visible hair tips and torso, do not invent legs or change identity. Isolate the character on genuine transparent alpha, tightly framed with a small transparent margin. No text, no shadow, no extra effects."
+}

@@ -1,0 +1,405 @@
+{
+  "method": "Original-source rebuild; transient compression and iterative measured gain with look-ahead peak limiting; dialogue uses integrated LUFS, short effects use gated active RMS; original durations preserved.",
+  "sounds": {
+    "death2": {
+      "file": "audio/death2.ogg",
+      "source": "art_source/user_supplied/death2.mp3",
+      "source_start": 0,
+      "source_sha256": "c90d1162a3e2519c9707cc542be55035559d9e20f9f1987b8a9cef044cccd91c",
+      "mode": "integrated_lufs",
+      "target_db": -16.5,
+      "before": {
+        "lufs": -17.03,
+        "true_peak_db": -6.31,
+        "active_rms_db": -20.187654239234888,
+        "sample_peak": 0.4822063148021698,
+        "samples": 77184,
+        "seconds": 1.608
+      },
+      "after": {
+        "lufs": -16.56,
+        "true_peak_db": -5.23,
+        "active_rms_db": -19.700987491269746,
+        "sample_peak": 0.5474592447280884,
+        "samples": 77184,
+        "seconds": 1.608
+      },
+      "output_sha256": "f4efa3958f091b1f2ba9d902d403c7d6094d04f5d862271048b595a867bf2b8a"
+    },
+    "death_a": {
+      "file": "audio/death_a.ogg",
+      "source": "art_source/user_supplied/death1.mp4",
+      "source_start": 0,
+      "source_sha256": "ad2bbee2ddc9dbda0bc0434db901eae1605f49ab41a72e5854292e8e682c6acd",
+      "mode": "integrated_lufs",
+      "target_db": -16.5,
+      "before": {
+        "lufs": -19.49,
+        "true_peak_db": -5.43,
+        "active_rms_db": -23.790706022707585,
+        "sample_peak": 0.5286427736282349,
+        "samples": 231360,
+        "seconds": 4.82
+      },
+      "after": {
+        "lufs": -16.53,
+        "true_peak_db": -4.84,
+        "active_rms_db": -20.80851350483311,
+        "sample_peak": 0.5557239651679993,
+        "samples": 231360,
+        "seconds": 4.82
+      },
+      "output_sha256": "b8b8bc6523771c75958ad6666fbd4291eb99a7c68ff439b52f05a4cea3e746c4"
+    },
+    "death_b": {
+      "file": "audio/death_b.ogg",
+      "source": "art_source/user_supplied/death1.mp4",
+      "source_start": 9.42,
+      "source_sha256": "ad2bbee2ddc9dbda0bc0434db901eae1605f49ab41a72e5854292e8e682c6acd",
+      "mode": "integrated_lufs",
+      "target_db": -16.5,
+      "before": {
+        "lufs": -18.07,
+        "true_peak_db": -2.86,
+        "active_rms_db": -21.70605861239948,
+        "sample_peak": 0.6953898668289185,
+        "samples": 128640,
+        "seconds": 2.68
+      },
+      "after": {
+        "lufs": -16.58,
+        "true_peak_db": -4.85,
+        "active_rms_db": -20.239012287388014,
+        "sample_peak": 0.5572311878204346,
+        "samples": 128640,
+        "seconds": 2.68
+      },
+      "output_sha256": "b06233d9dc9886e0e582039fb3ff3f324a3289faa168dd327157ed70d1768a1a"
+    },
+    "death_c": {
+      "file": "audio/death_c.ogg",
+      "source": "art_source/user_supplied/death1.mp4",
+      "source_start": 15.05,
+      "source_sha256": "ad2bbee2ddc9dbda0bc0434db901eae1605f49ab41a72e5854292e8e682c6acd",
+      "mode": "integrated_lufs",
+      "target_db": -16.5,
+      "before": {
+        "lufs": -18.46,
+        "true_peak_db": -8.35,
+        "active_rms_db": -22.323892209751488,
+        "sample_peak": 0.38221344351768494,
+        "samples": 211200,
+        "seconds": 4.4
+      },
+      "after": {
+        "lufs": -16.67,
+        "true_peak_db": -6.65,
+        "active_rms_db": -20.53088075634839,
+        "sample_peak": 0.459513783454895,
+        "samples": 211200,
+        "seconds": 4.4
+      },
+      "output_sha256": "dc4e724d5cd8a39897be191fee3bf980c83f34cf271efadf3f29d637bd1b71a8"
+    },
+    "death_mourner": {
+      "file": "audio/death_mourner.ogg",
+      "source": "art_source/user_supplied/death1.mp4",
+      "source_start": 20.7,
+      "source_sha256": "ad2bbee2ddc9dbda0bc0434db901eae1605f49ab41a72e5854292e8e682c6acd",
+      "mode": "integrated_lufs",
+      "target_db": -16.5,
+      "before": {
+        "lufs": -18.09,
+        "true_peak_db": -6.31,
+        "active_rms_db": -21.132986295215566,
+        "sample_peak": 0.4831883907318115,
+        "samples": 137530,
+        "seconds": 2.865208
+      },
+      "after": {
+        "lufs": -16.61,
+        "true_peak_db": -5.14,
+        "active_rms_db": -19.782231284604315,
+        "sample_peak": 0.5513124465942383,
+        "samples": 137530,
+        "seconds": 2.865208
+      },
+      "output_sha256": "74f18cfc4a40cd5ffae7af936b7100a4ff3e66a775b0f930046fce03ed691e02"
+    },
+    "killer": {
+      "file": "audio/killer.ogg",
+      "source": "art_source/user_supplied/killer.mp3",
+      "source_start": 0,
+      "source_sha256": "fc3cc3fbe6a99fc351ad73f3d79410b0267a2e1e2a354cb2e2da7604b169dfc7",
+      "mode": "integrated_lufs",
+      "target_db": -16.5,
+      "before": {
+        "lufs": -18.11,
+        "true_peak_db": -5.53,
+        "active_rms_db": -20.184119264704982,
+        "sample_peak": 0.5283540487289429,
+        "samples": 338688,
+        "seconds": 7.1
+      },
+      "after": {
+        "lufs": -16.72,
+        "true_peak_db": -5.09,
+        "active_rms_db": -18.637842213374284,
+        "sample_peak": 0.5563377141952515,
+        "samples": 340800,
+        "seconds": 7.1
+      },
+      "output_sha256": "8e0fb43e479e6c324c4dd64d6bc6fffaaf95d8e3ceff331aaba7ba11f84b9dc3"
+    },
+    "weapon": {
+      "file": "audio/weapon.ogg",
+      "source": "art_source/user_supplied/weapon.mp3",
+      "source_start": 0,
+      "source_sha256": "bb345379fb7b4eb73c177accf5957e220ee6ff3c75a9f3f6a3bf0b3ca5aff0d1",
+      "mode": "active_rms",
+      "target_db": -18,
+      "before": {
+        "lufs": -17.07,
+        "true_peak_db": -4.26,
+        "active_rms_db": -20.758004944131198,
+        "sample_peak": 0.6120668053627014,
+        "samples": 36736,
+        "seconds": 0.768
+      },
+      "after": {
+        "lufs": -14.41,
+        "true_peak_db": -4.98,
+        "active_rms_db": -18.22481181073704,
+        "sample_peak": 0.5635831356048584,
+        "samples": 36736,
+        "seconds": 0.768
+      },
+      "output_sha256": "8eb3c613190c34a73664a9179f7852c03a9f11658a6e7bc369deea7337cb8ec4"
+    },
+    "enemyshoot": {
+      "file": "audio/sfx_enemyshoot.ogg",
+      "source": "art_source/sfx_downloads/digital_laser2.ogg",
+      "source_start": 0,
+      "source_sha256": "50470d64f9397855e5d9a334484da9c5232b3e0524c52f088b8a73822bd89f45",
+      "mode": "active_rms",
+      "target_db": -18,
+      "before": {
+        "lufs": null,
+        "true_peak_db": -12.68,
+        "active_rms_db": -22.470066307674898,
+        "sample_peak": 0.2323516458272934,
+        "samples": 14272,
+        "seconds": 0.3
+      },
+      "after": {
+        "lufs": null,
+        "true_peak_db": -6.43,
+        "active_rms_db": -18.172604660204946,
+        "sample_peak": 0.4712400436401367,
+        "samples": 14272,
+        "seconds": 0.3
+      },
+      "output_sha256": "2fd8cf25ce886609d5362c91efa932d2e360b677d7b9613a784a7549f0ca9516"
+    },
+    "enemyshoot2": {
+      "file": "audio/sfx_enemyshoot2.ogg",
+      "source": "art_source/sfx_downloads/scifi_laserRetro_001.ogg",
+      "source_start": 0,
+      "source_sha256": "a0a99efaa755594982d5dfebf3d9cecaed5249bdf1f0de29cf26ca9ea24c191a",
+      "mode": "active_rms",
+      "target_db": -18,
+      "before": {
+        "lufs": null,
+        "true_peak_db": -7.04,
+        "active_rms_db": -14.698981820742343,
+        "sample_peak": 0.43493226170539856,
+        "samples": 11177,
+        "seconds": 0.235521
+      },
+      "after": {
+        "lufs": null,
+        "true_peak_db": -10.24,
+        "active_rms_db": -18.074580384982177,
+        "sample_peak": 0.29903674125671387,
+        "samples": 11177,
+        "seconds": 0.235521
+      },
+      "output_sha256": "501c38655f7b49b2011b2706e78970891574c1f894ee6889308a97ac18e9b52a"
+    },
+    "enemy_down": {
+      "file": "audio/sfx_enemy_down.ogg",
+      "source": "art_source/sfx_downloads/rpg_dropLeather.ogg",
+      "source_start": 0,
+      "source_sha256": "097e1d3b74949b0145fda0519d40b7e0773ab82ec4858727f95be830927e1a45",
+      "mode": "active_rms",
+      "target_db": -22,
+      "before": {
+        "lufs": null,
+        "true_peak_db": -5.17,
+        "active_rms_db": -21.224060413550127,
+        "sample_peak": 0.5503503680229187,
+        "samples": 14272,
+        "seconds": 0.3
+      },
+      "after": {
+        "lufs": null,
+        "true_peak_db": -6.62,
+        "active_rms_db": -22.05975245206588,
+        "sample_peak": 0.46323636174201965,
+        "samples": 14272,
+        "seconds": 0.3
+      },
+      "output_sha256": "8a4c10c2e741959e30d2db520466b5d2eaafa5738f2b9c31d4807ab9cd1e852f"
+    },
+    "tool_open": {
+      "file": "audio/sfx_tool_open.ogg",
+      "source": "art_source/sfx_downloads/rpg_metalLatch.ogg",
+      "source_start": 0,
+      "source_sha256": "ba9ba60b172b3ebc131a940f25793cd2e207aca7af73dc80d637277f060f1708",
+      "mode": "active_rms",
+      "target_db": -18,
+      "before": {
+        "lufs": null,
+        "true_peak_db": -3.16,
+        "active_rms_db": -21.424311993468564,
+        "sample_peak": 0.6797577142715454,
+        "samples": 12416,
+        "seconds": 0.261333
+      },
+      "after": {
+        "lufs": null,
+        "true_peak_db": -4.81,
+        "active_rms_db": -18.476160927818384,
+        "sample_peak": 0.5655539035797119,
+        "samples": 12416,
+        "seconds": 0.261333
+      },
+      "output_sha256": "fd9bf187a903b4198f1f8d2d758ef916d7d425f5d16fb949b0378149712ac724"
+    },
+    "tool_null": {
+      "file": "audio/sfx_tool_null.ogg",
+      "source": "art_source/sfx_downloads/scifi_forceField_001.ogg",
+      "source_start": 0,
+      "source_sha256": "5574e69dd04e5f59322c5ddffde5978f077b09170ae5e29cec0bd9901828cd90",
+      "mode": "active_rms",
+      "target_db": -18,
+      "before": {
+        "lufs": -21.78,
+        "true_peak_db": -15.07,
+        "active_rms_db": -23.694106419655693,
+        "sample_peak": 0.17641200125217438,
+        "samples": 31072,
+        "seconds": 0.65
+      },
+      "after": {
+        "lufs": -15.47,
+        "true_peak_db": -9.14,
+        "active_rms_db": -17.924071426641383,
+        "sample_peak": 0.34910058975219727,
+        "samples": 31072,
+        "seconds": 0.65
+      },
+      "output_sha256": "9aa2689ef74e6d03af6943bdd7f2af254e3b52bdede7af755eeb90907554da14"
+    },
+    "boss_alert": {
+      "file": "audio/sfx_boss_alert.ogg",
+      "source": "art_source/sfx_downloads/interface_bong_001.ogg",
+      "source_start": 0,
+      "source_sha256": "d21d0f0b782445db579d11e2506b24cd1ac9d664ee33aeaf807761aa7b6fd710",
+      "mode": "active_rms",
+      "target_db": -18,
+      "before": {
+        "lufs": null,
+        "true_peak_db": -8.57,
+        "active_rms_db": -22.0592706182588,
+        "sample_peak": 0.3727104067802429,
+        "samples": 5768,
+        "seconds": 0.122833
+      },
+      "after": {
+        "lufs": null,
+        "true_peak_db": -6.84,
+        "active_rms_db": -18.214996603807826,
+        "sample_peak": 0.45492422580718994,
+        "samples": 6848,
+        "seconds": 0.122833
+      },
+      "output_sha256": "1c863318913dffaa220982561149193bd6c0945ecd7ae55331e8a61bb66a1cbc"
+    },
+    "impact": {
+      "file": "audio/sfx_impact.ogg",
+      "source": "art_source/sfx_downloads/impact_impactMetal_light_000.ogg",
+      "source_start": 0,
+      "source_sha256": "33b5e6e37c6e9d54e07bf5a89b12c76e879f40c1ea83cdd82714df1d6f9fec6d",
+      "mode": "active_rms",
+      "target_db": -20,
+      "before": {
+        "lufs": null,
+        "true_peak_db": -4.26,
+        "active_rms_db": -19.21256696807282,
+        "sample_peak": 0.6122730374336243,
+        "samples": 11403,
+        "seconds": 0.240229
+      },
+      "after": {
+        "lufs": null,
+        "true_peak_db": -7.62,
+        "active_rms_db": -20.205530840993,
+        "sample_peak": 0.4099312126636505,
+        "samples": 11403,
+        "seconds": 0.240229
+      },
+      "output_sha256": "66554680bb17a914ac61bef60664c4553d7d2179b694b0bfd75dfcfcdfdaff05"
+    },
+    "impact2": {
+      "file": "audio/sfx_impact2.ogg",
+      "source": "art_source/sfx_downloads/scifi_impactMetal_001.ogg",
+      "source_start": 0,
+      "source_sha256": "4a2b76f20052819c6ace57cc5ba55ec58deffcf74e3ed30694d619c582cc8e8e",
+      "mode": "active_rms",
+      "target_db": -20,
+      "before": {
+        "lufs": null,
+        "true_peak_db": -6.07,
+        "active_rms_db": -23.065212898453645,
+        "sample_peak": 0.49710410833358765,
+        "samples": 14272,
+        "seconds": 0.3
+      },
+      "after": {
+        "lufs": null,
+        "true_peak_db": -7.99,
+        "active_rms_db": -20.111409283021963,
+        "sample_peak": 0.3987443149089813,
+        "samples": 14272,
+        "seconds": 0.3
+      },
+      "output_sha256": "87e644e5304d7631d246047d5cc89bb9972e522868e608700d1e8edd33f6c552"
+    },
+    "impact3": {
+      "file": "audio/sfx_impact3.ogg",
+      "source": "art_source/sfx_downloads/impact_impactPunch_medium_002.ogg",
+      "source_start": 0,
+      "source_sha256": "6492f9ccbc8d24dcef607bb1b48790b7870961474561f7fe5601e1c73a3018ef",
+      "mode": "active_rms",
+      "target_db": -20,
+      "before": {
+        "lufs": null,
+        "true_peak_db": -7.78,
+        "active_rms_db": -21.658619889506188,
+        "sample_peak": 0.40805163979530334,
+        "samples": 14272,
+        "seconds": 0.3
+      },
+      "after": {
+        "lufs": null,
+        "true_peak_db": -7.18,
+        "active_rms_db": -19.969870482512896,
+        "sample_peak": 0.4371468126773834,
+        "samples": 14272,
+        "seconds": 0.3
+      },
+      "output_sha256": "4063246d6683fc0689dfb8797c9a679147bb14f20741966d2b6a2f9f299a4c0a"
+    }
+  }
+}

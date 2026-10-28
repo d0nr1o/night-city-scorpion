@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+email=$(git config --get user.email)
+case "$email" in
+  *@users.noreply.github.com) ;;
+  *) printf '%s\n' 'Commit email must use GitHub noreply.' >&2; exit 1 ;;
+esac
+"${SCORPION_PYTHON:-python}" tools/check_privacy.py --tracked

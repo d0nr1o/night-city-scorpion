@@ -1,0 +1,82 @@
+{
+  "source_folder": "art_source/user_supplied",
+  "images": [
+    {
+      "file": "killer.png",
+      "method": "traced polygon alpha matte",
+      "source": "killer.png"
+    },
+    {
+      "file": "killertool.png",
+      "method": "traced polygon alpha matte",
+      "source": "killertool.jpg"
+    },
+    {
+      "file": "killerweapon1.png",
+      "method": "traced polygon alpha matte",
+      "source": "killerweapon1.png"
+    },
+    {
+      "file": "killerweapon2.png",
+      "method": "traced polygon alpha matte",
+      "source": "killerweapon2.png"
+    },
+    {
+      "file": "capri-caught.png",
+      "method": "traced polygon alpha matte",
+      "source": "capri-caught.png"
+    },
+    {
+      "file": "d.png",
+      "source": "D_default.png",
+      "method": "unchanged supplied alpha image"
+    },
+    {
+      "file": "capri_icon.png",
+      "source": "capri.jpg",
+      "method": "icon resize without cutout"
+    }
+  ],
+  "audio": {
+    "bgm_default": {
+      "source": "bgm_default.flac",
+      "seconds": 249.558875,
+      "crossfade_seconds": 3,
+      "sample_rate": 32000,
+      "peak": 0.39167308807373047,
+      "loop_seam_jump": 0.014889821410179138,
+      "adjacent_difference_p99": 0.09183565527200699,
+      "method": "loudnorm -18 LUFS; equal-power tail/head overlap; Vorbis loop"
+    },
+    "bgm_lose": {
+      "source": "bgm_lose.flac",
+      "seconds": 229.92515625,
+      "crossfade_seconds": 3,
+      "sample_rate": 32000,
+      "peak": 0.7041059732437134,
+      "loop_seam_jump": 0.004982452839612961,
+      "adjacent_difference_p99": 0.1030905619263649,
+      "method": "loudnorm -18 LUFS; equal-power tail/head overlap; Vorbis loop"
+    },
+    "capri-get": {
+      "source": "capri-get.mp3",
+      "seconds": 2.472
+    },
+    "death2": {
+      "source": "death2.mp3",
+      "seconds": 1.608
+    },
+    "lose1": {
+      "source": "lose1.mp3",
+      "seconds": 5.568
+    },
+    "lose2": {
+      "source": "lose2.mp3",
+      "seconds": 1.512
+    },
+    "lose3": {
+      "source": "lose3.mp3",
+      "seconds": 2.448
+    }
+  }
+}
